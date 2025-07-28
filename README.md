@@ -40,49 +40,38 @@
 │OrchestratorAgent       │
 └──────────┬─────────────┘
            │
-┌──────────▼─────────────┐
-│Trend & Peer Agents     │
-│(SalesTrend, TransactionTrend, ATS, PeerStats,│
-│ WeekdayProfile)        │
-└──────────┬─────────────┘
+┌──────────▼─────────────────────────────────────┐
+│Trend & Peer Agents                             │
+│(SalesTrend, TransactionTrend, ATS, PeerStats,  │
+│ WeekdayProfile)                                │
+└──────────┬─────────────────────────────────────┘
            │
 ┌──────────▼─────────────┐
 │InsightManagerAgent     │
 └──────────┬─────────────┘
            │
-┌──────────▼─────────────┐
-│RecommendationManagerAgent│
-│(PlanMatching, Author, Validator)│
-└──────────┬─────────────┘
+┌──────────▼───────────────────────┐
+│RecommendationManagerAgent        │
+│(PlanMatching, Author, Validator) │
+└──────────┬───────────────────────┘
            │
-┌──────────▼─────────────┐
+┌──────────▼─────────────────┐
 │RecommendationCritiqueAgent │
-└────────────────────────┘
+└────────────────────────────┘
 ```
 
 ## Getting Started
 
 ### Prerequisites
 
-* Python 3.8 or higher
-* `pip` package manager
-* OpenAI API Key (set `OPENAI_API_KEY` in your environment)
+* pandas>=1.5.3
+* numpy>=1.21.0
+* fpdf>=1.7.2
+* pdfplumber>=0.10.2
+* python-dateutil>=2.8.2
+* matplotlib>=3.5.0
+* seaborn>=0.11.2
 
-### Installation
-
-```bash
-# Clone the repo
-git clone https://github.com/<your-username>/multi-agent_merchant_insight.git
-cd multi-agent_merchant_insight
-
-# Create a virtual environment and activate it
-python -m venv venv
-source venv/bin/activate     # Linux/macOS
-venv\Scripts\activate      # Windows
-
-# Install dependencies
-pip install -r requirements.txt
-```
 
 ## Directory Structure
 
@@ -99,7 +88,6 @@ multi-agent_merchant_insight/
 │   └── prototype.ipynb      # End-to-end demo
 ├── scripts/                 # Utility scripts (e.g. data generation)
 ├── requirements.txt         # Python dependencies
-└── README.md                # Project documentation
 ```
 
 ## Usage
@@ -162,23 +150,13 @@ recommendations = orc.run_recommendations(insights)
 
 | Milestone                | Status         |
 | ------------------------ | -------------- |
-| Data Ingestion           | ✅ Completed    |
-| Trend & Peer Analysis    | ✅ Completed    |
-| Insight Generation       | ✅ Completed    |
-| Plan Matching            | ✅ Completed    |
-| Recommendation Authoring | ✅ Completed    |
-| Recommendation Critique  | ✅ Completed    |
-| Colab Prototype          | 🟡 In Progress |
-| Dashboard Integration    | ⏳ Planned      |
+| Data Ingestion           |  Completed    |
+| Trend & Peer Analysis    |  Completed    |
+| Insight Generation       |  Completed    |
+| Plan Matching            |  Completed    |
+| Recommendation Authoring |  Completed    |
+| Recommendation Critique  |  Completed    |
+| Colab Prototype          |  In Progress  |
+| Dashboard Integration    |  Planned      |
 
-## Contributing
 
-Contributions are welcome! Please open issues or pull requests for:
-
-* Bug fixes
-* New agents or analysis modules
-* Improved prompts or thresholds
-
-## License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
