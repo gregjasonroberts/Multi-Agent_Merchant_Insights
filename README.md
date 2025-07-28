@@ -22,10 +22,6 @@ Leveraging an agentic AI approach, each component from trend analysis to LLM-dri
 * [Architecture](#architecture)
 * [Getting Started](#getting-started)
 * [Directory Structure](#directory-structure)
-* [Usage](#usage)
-
-  * [Data Generation](#data-generation)
-  * [Running the Pipeline](#running-the-pipeline)
 * [Agents](#agents)
 * [Project Status](#project-status)
 
