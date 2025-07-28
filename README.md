@@ -13,6 +13,10 @@
 5. **Generate** actionable recommendations
 6. **Critique** for concise, customer-ready messaging
 
+This framework addresses the merchant services team's need to deliver personalized upsell recommendations by analyzing daily performance metrics and peer benchmarks, ensuring each suggestion aligns with the merchant's unique trends and goals. By simulating an intelligent business advisor with specialized agents collaborating, merchants gain actionable, context-aware insights that drive tangible improvements in revenue and engagement.
+
+Leveraging an agentic AI approach, each component—from trend analysis to LLM-driven plan matching—operates autonomously yet cohesively, producing explainable and adaptive recommendations that evolve with the business context.
+
 ## Table of Contents
 
 * [Architecture](#architecture)
@@ -24,8 +28,7 @@
   * [Running the Pipeline](#running-the-pipeline)
 * [Agents](#agents)
 * [Project Status](#project-status)
-* [Contributing](#contributing)
-* [License](#license)
+
 
 ## Architecture
 
