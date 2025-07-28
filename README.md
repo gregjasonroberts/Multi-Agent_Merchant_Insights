@@ -90,40 +90,7 @@ multi-agent_merchant_insight/
 ├── requirements.txt         # Python dependencies
 ```
 
-## Usage
 
-### Data Generation
-
-Generate synthetic merchant stats and plan matrices in Colab:
-
-```python
-from scripts.generate_data import generate_synthetic_data
-stats_df, merchant_df, plan_matrix = generate_synthetic_data(...)
-```
-
-### Running the Pipeline
-
-```bash
-python -m scripts.run_pipeline \
-  --stats data/merchant_stats.csv \
-  --metadata data/merchant_metadata.csv \
-  --segments data/all_merchants_segments.csv \
-  --plan-matrix data/service_plan_matrix.pdf
-```
-
-Or in Python:
-
-```python
-from agents.orchestrator import DataIngestionManagerAgent, OrchestratorAgent
-
-ingestor = DataIngestionManagerAgent(...)
-data = ingestor.run_ingestion()
-
-orc = OrchestratorAgent(data)
-insights = orc.run_insights()
-
-recommendations = orc.run_recommendations(insights)
-```
 
 ## Agents
 
