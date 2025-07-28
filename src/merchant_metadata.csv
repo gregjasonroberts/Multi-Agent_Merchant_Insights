@@ -1,0 +1,6 @@
+merchant_id,name,industry,location,current_plan,active_services
+M001,Carmines Italian,Restaurants,NY,Basic,"POS Integration, Gift Card Integration"
+M002,Clean Cuts,Services,IL,Basic,"CRM Tools, Email Marketing"
+M003,Spark Retail,Retail,CA,Basic,"Analytics Dashboard, Mobile App, POS Integration"
+M004,JP's Italian,Restaurants,NJ,N/A,N/A
+M005,Nomo Sushi,Restaurants,NJ,N/A,N/A
