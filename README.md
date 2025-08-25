@@ -1,4 +1,4 @@
-# multi-agent\_merchant\_insight
+# Multi Agent Merchant Insight
 
 ![Project Status](https://img.shields.io/badge/status-beta-orange)
 
