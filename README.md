@@ -23,7 +23,7 @@ Leveraging an agentic AI approach, each component from trend analysis to LLM-dri
 * [Getting Started](#getting-started)
 * [Directory Structure](#directory-structure)
 * [Agents](#agents)
-* [Framework Performance](#performance)
+* [NLP Scoring](#nlp-scoring)
 * [Project Status](#project-status)
 
 
@@ -113,7 +113,7 @@ multi-agent_merchant_insight/
 | RecommendationValidatorAgent  | `verbose_recommendation`   | validation status/fixes  |
 | RecommendationCritiqueAgent   | `verbose_recommendation`   | `concise_recommendation` |
 
-## Performance
+## NLP Metrics
 <img width="1051" height="603" alt="image" src="https://github.com/user-attachments/assets/e2048b3e-0961-4469-9ebd-7338d8427fc0" />
 
 
