@@ -23,7 +23,7 @@ Leveraging an agentic AI approach, each component from trend analysis to LLM-dri
 * [Getting Started](#getting-started)
 * [Directory Structure](#directory-structure)
 * [Agents](#agents)
-* [NLP Scoring](#nlp-scoring)
+* [NLP Scoring](#nlp-metrics)
 * [Project Status](#project-status)
 
 
